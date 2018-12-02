@@ -1,10 +1,9 @@
 # Avaliação de desempenho das funções contra o Buffer Overflow
 
-One Paragraph of project description goes here
+O algoritmo é um trabalho acadêmico com o objetivo de comparar a performance entre as soluções segura das funções.
 
 ## Equipamento utilizado
 
-What things you need to install the software and how to install them
 
 ## Compilação
 
