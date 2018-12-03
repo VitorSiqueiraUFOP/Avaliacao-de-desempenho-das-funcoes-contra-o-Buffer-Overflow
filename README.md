@@ -7,19 +7,19 @@ Estudante: Sistemas de Informação
 
 ## Funções inseguras
 
-```char * strcpy ( char * destination, const char * source );```
+```char *strcpy ( char *destination, const char *source );```
 
-```char * strcat ( char * destination, const char * source );```
+```char *strcat ( char *destination, const char *source );```
 
-```int sprintf ( char * str, const char * format, ... );```
+```int sprintf ( char *str, const char *format, ... );```
 
 ## Funções seguras nativa da linguagem C
 
-```char * strncpy ( char * destination, const char * source, size_t num );```
+```char * strncpy ( char *destination, const char *source, size_t num );```
 
-```char * strncat ( char * destination, const char * source, size_t num );```
+```char * strncat ( char *destination, const char *source, size_t num );```
 
-```int snprintf ( char * s, size_t n, const char * format, ... );```
+```int snprintf ( char *s, size_t n, const char *format, ... );```
 
 ## Funções seguras da biblioteca glib.h
 
