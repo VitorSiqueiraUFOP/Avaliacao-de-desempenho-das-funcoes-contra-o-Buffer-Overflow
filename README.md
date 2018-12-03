@@ -1,23 +1,32 @@
 # Avaliação de desempenho das funções contra o Buffer Overflow
 
-O presente software é um trabalho acadêmico que tem objetivo de comparar o desempenho das soluções seguras do Buffer Overflow com as não-seguras para medir uma eventual sobrecarga. As funções selecionadas manipulam as string que apesar de ser uma amostra pequena,  tem fins didáticos, visto que há outras funções para testar. 
+O presente software é um trabalho acadêmico desenvolvido na linguagem C que tem objetivo de comparar o desempenho das soluções seguras do Buffer Overflow com as não-seguras para medir uma eventual sobrecarga. As funções selecionadas manipulam as string que apesar de ser uma amostra pequena,  tem fins didáticos, visto que há outras funções para testar.
+
+Autor: Vitor de Siqueira Cotta
+Estudante: Sistemas de Informação
 
 ## Funções inseguras
 
-``` ```
-``` ```
-``` ```
+```char * strcpy ( char * destination, const char * source );```
+
+```char * strcat ( char * destination, const char * source );```
+
+```int sprintf ( char * str, const char * format, ... );```
 
 ## Funções seguras nativa da linguagem C
 
-``` ```
-``` ```
-``` ```
+```char * strncpy ( char * destination, const char * source, size_t num );```
+
+```char * strncat ( char * destination, const char * source, size_t num );```
+
+```int snprintf ( char * s, size_t n, const char * format, ... );```
 
 ## Funções seguras da biblioteca glib.h
 
 ```gsize g_strlcpy (gchar *dest, const gchar *src, gsize dest_size);```
+
 ```gsize g_strlcat (gchar *dest, const gchar *src, gsize dest_size);```
+
 ```gint g_snprintf (gchar *string, gulong n, gchar const *format, ...);```
 
 ## Equipamento utilizado
