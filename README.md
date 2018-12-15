@@ -4,7 +4,7 @@ O presente software é um trabalho acadêmico desenvolvido na linguagem C que te
 
 Autor: Vitor de Siqueira Cotta
 
-Curso: Sistemas de Informação
+Graduando: Sistemas de Informação
 
 ## Funções não-confiáveis
 
