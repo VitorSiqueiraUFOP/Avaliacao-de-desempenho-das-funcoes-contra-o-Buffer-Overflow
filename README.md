@@ -3,6 +3,7 @@
 O presente software é um trabalho acadêmico desenvolvido na linguagem C que tem objetivo de comparar o desempenho das funções confiáveos ao Buffer Overflow com as funções não-confiáveis para medir uma eventual sobrecarga. As funções selecionadas manipulam as strings, apesar de ser uma amostra pequena, tem fins didáticos visto que há outras funções vulnerável ao Buffer Overflow para testar.
 
 Autor: Vitor de Siqueira Cotta
+
 Curso: Sistemas de Informação
 
 ## Funções não-confiáveis
