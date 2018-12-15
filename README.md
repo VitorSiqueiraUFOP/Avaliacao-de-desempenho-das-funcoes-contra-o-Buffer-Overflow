@@ -1,11 +1,11 @@
 # Avaliação de desempenho das funções contra o Buffer Overflow
 
-O presente software é um trabalho acadêmico desenvolvido na linguagem C que tem objetivo de comparar o desempenho das soluções seguras do Buffer Overflow com as não-seguras para medir uma eventual sobrecarga. As funções selecionadas manipulam as string que apesar de ser uma amostra pequena,  tem fins didáticos, visto que há outras funções para testar.
+O presente software é um trabalho acadêmico desenvolvido na linguagem C que tem objetivo de comparar o desempenho das funções confiáveos ao Buffer Overflow com as funções não-confiáveis para medir uma eventual sobrecarga. As funções selecionadas manipulam as strings, apesar de ser uma amostra pequena, tem fins didáticos visto que há outras funções vulnerável ao Buffer Overflow para testar.
 
 Autor: Vitor de Siqueira Cotta
-Estudante: Sistemas de Informação
+Curso: Sistemas de Informação
 
-## Funções inseguras
+## Funções não-confiáveis
 
 ```char *strcpy ( char *destination, const char *source );```
 
@@ -13,7 +13,7 @@ Estudante: Sistemas de Informação
 
 ```int sprintf ( char *str, const char *format, ... );```
 
-## Funções seguras nativa da linguagem C
+## Funções confiáveis nativa da linguagem C
 
 ```char * strncpy ( char *destination, const char *source, size_t num );```
 
@@ -21,7 +21,7 @@ Estudante: Sistemas de Informação
 
 ```int snprintf ( char *s, size_t n, const char *format, ... );```
 
-## Funções seguras da biblioteca glib.h
+## Funções confiáveis da biblioteca glib.h
 
 ```gsize g_strlcpy (gchar *dest, const gchar *src, gsize dest_size);```
 
@@ -31,11 +31,11 @@ Estudante: Sistemas de Informação
 
 ## Equipamento utilizado
 
-O equipamento utilizado para representar os dispositivos de IoT foi Raspberry Pi, um computador desenvolvido pela Raspberry Pi Foundation, que é uma organização de caridade britânica. O propósito do é estimular a educação da Ciência Computação através da acessibilidade de aquisição, com valor estabelecido de $35,00, que apesar de apresentar uma configuração modesta, é uma ferramenta capaz de executar diversas tarefas apta para fins acadêmico. O modelo específico é o Raspberry 3 modelo B+, disponibilizado em 2018.
+O equipamento utilizado para representar os dispositivos de IoT foi Raspberry Pi, um computador desenvolvido pela Raspberry Pi Foundation, que é uma organização de caridade britânica. O propósito do hardware é estimular a educação da Ciência Computação através da acessibilidade de aquisição, com valor estabelecido de $35,00, que apesar de apresentar uma configuração modesta, é uma ferramenta capaz de executar diversas tarefas. O modelo específico é o Raspberry 3 modelo B+, disponibilizado em 2018.
 
 ## Compilação
 
-O código avaliado foi compilado pelo compilador GCC versão: 6.3.0 nas definições de fábrica usando o comando:
+O código avaliado foi compilado pelo compilador GCC versão: 6.3.0 usando o comando:
 
 ```
 gcc main.c 'pkg-config --cflags --libs glib-2.0' -o main -lm
